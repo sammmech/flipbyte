@@ -1,0 +1,689 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:auto;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+/*navbar Stats*/
+
+#navbar{
+    height: 100px;
+    background: #f9f9f9;
+}
+
+
+.custom-toggler .navbar-toggler{
+    border: none;
+
+}
+
+
+
+.custom-toggler .navbar-toggler:hover{
+         color:#ffa500;
+         transform: scale(1.1);
+        
+}
+
+
+#offcanvasNavbar{
+    background: black;
+}
+
+/*
+.container aria-label {
+    color: white;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+   
+  font-weight: 400;
+  /*
+  margin-left: 100px;
+  */
+}
+
+#logo span {
+    font-weight: 650;
+    
+}
+
+
+
+
+    @media only screen 
+    and (min-width : 500px)
+    and (max-width : 800px) {
+
+       #logo {
+        font-size: 20px;
+        margin-right: 170px;
+
+       }
+
+    }
+
+
+    
+    @media only screen 
+    and (min-width : 800px)
+    and (max-width : 2000px) {
+
+       #logo {
+        font-size: 30px;
+        margin-left: 100px;
+       }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+    .nav-item .nav-link h6{
+        color: white;
+        font-size: large;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 20px;
+        
+        
+    }
+    
+
+}
+
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px) {
+
+    .nav-item .nav-link h6{
+        color: black;
+        font-size: small;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 20px;
+        
+        
+        
+    }
+    
+
+}
+
+
+
+
+
+/* error */
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+    .social-links{
+        color: white;
+        margin-top: 10px;
+        margin-left: 50PX;
+        
+    }
+    
+}
+
+
+
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+
+    .social-links i{
+        margin-left: 10px;
+    }
+    
+}
+
+
+/* error */
+
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+    .social-links i:hover{
+        transform: scale(1.1);
+        color: #ffa500;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px) {
+
+    
+    .social-links{
+        visibility: hidden;
+    }
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offcanvas-body .nav-item :hover{
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+    .ref .nav-item h6{
+        padding: 15px 15px 15px 15px;
+        font-size: small;
+        font-weight: 700;
+        color: white;
+        background-color: #513fc6;
+        border-radius: 5px;
+        margin-top: 6px;
+        margin-left: 50px;
+        margin-right: 20px;
+        
+    }
+}
+
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px) {
+
+    .ref .nav-item h6{
+        padding: 15px 15px 15px 15px;
+        font-size: small;
+        font-weight: 700;
+        color: white;
+        background-color: #513fc6;
+        border-radius: 5px;
+        margin-top: 6px;
+        margin-left: 50px;
+        margin-right: 20px;
+        
+        
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navbar Ends*/
+
+
+
+/*home starts*/
+
+
+.book{
+    background: black;
+    color: white;
+}
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+   .book .content{
+    height: 400px;
+    padding-top: 20px;
+    
+    
+}
+
+
+}
+
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px) {
+
+    .book .content{
+        height: 550px;
+        padding-top: 20px;
+}
+
+}
+
+
+
+
+.book.content p{
+
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+    .book .content h3{
+    
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+}
+
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px) {
+
+   .book .content h3{
+    
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: 750;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*home ends*/
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px) {
+
+    
+p{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+}
+
+
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px) {
+
+   
+p{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+}
+
+
+
+.offer {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.offer h3{
+    font-size: 20px;
+    font-weight: 650;
+    color: #513fc6;
+}
+
+.offer h1{
+    padding-top: 15px;
+    font-weight: 750;
+
+}
+
+
+
+.services{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    
+    padding: 30px;
+    padding-bottom: 50px;
+
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+
+
+
+
+
+
+
+.card i{
+   font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #513fc6;
+    
+    
+  
+}
+
+
+.card-body h2{
+    font-size: 20px;
+    font-weight: 650;
+}
+
+
+
+
+.card-body h6{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+
+@media only screen
+
+and (min-width : 500px)
+and (max-width : 800px) {
+
+
+    .main-txt h6{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 350;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen
+
+and (min-width : 800px)
+and (max-width : 2000px){
+
+
+    .main-txt h6{
+        text-align: left;
+        margin-top: 30px;
+        font-weight: 350;
+    }
+
+}
+
+.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.contact{
+    padding: 40px;
+}
+
+/*
+
+.contact .main a{
+    
+    padding: 13px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background: #513fc6;
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5%;
+    text-decoration: none;
+    
+    
+    
+    
+    
+}
+*/
+    
+
+@media only screen 
+and (min-width : 500px)
+and (max-width : 800px){
+    
+.contact .main a{
+    
+    padding: 13px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background: #513fc6;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5%;
+    text-decoration: none;
+    
+    
+    
+    
+    
+}
+
+}
+
+
+
+
+
+
+
+    
+
+@media only screen 
+and (min-width : 800px)
+and (max-width : 2000px){
+    .contact .main a{
+    
+        padding: 13px;
+        margin-left: 640px;
+        background: #513fc6;
+        color: #f9f9f9;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 5%;
+        text-decoration: none;
+        
+        
+        
+        
+        
+    }
+    
+}
+
+
